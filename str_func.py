@@ -1,4 +1,5 @@
 def func(s):
+    """ВЫсокий регистр"""
     return s.upper()
 
 def func2(s):
