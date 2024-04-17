@@ -1,3 +1,7 @@
 def func(s):
-    """Функция делает заглавные буквы"""
+    """Высокий  регистр"""
     return s.upper()
+
+def func2(s):
+    """Функция  делает буквы  заглавными"""
+    return "".join([word.capitalize() for word in s.split()])
